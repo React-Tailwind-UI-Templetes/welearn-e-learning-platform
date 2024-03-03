@@ -13,10 +13,12 @@ import UpcomingWorkshop from "./Components/UpcomingWorkshop";
 import Review from "./Components/Review";
 import Support from "./Components/Support";
 import Footer from "./Components/Footer";
+import MobileNav from "./Components/MobileNav";
 
 const App = () => {
   return (
-    <>
+    <div className=" overflow-hidden">
+      <MobileNav />
       <Navbar />
       <Hero />
       <Company />
@@ -29,7 +31,7 @@ const App = () => {
       <Review />
       <Support />
       <Footer />
-    </>
+    </div>
   );
 };
 

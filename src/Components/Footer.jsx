@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   return (
     <footer className="w-full max-w-[1600px] mx-auto px-6 bg-[#293845] py-12 text-[#fff]">
-      <div className="flex justify-between gap-12">
-        <div className="w-[30%]">
+      <div className="flex justify-between gap-12 flex-col md:flex-row">
+        <div className="w-full md:w-[30%]">
           <img src="/footerlogo.png" alt="logo" className="w-[160px]" />
           <p className="text-[14px] font-[400] my-4">
             It’s an e-learning website where we aim to provide the best quality
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between w-[60%]">
+        <div className="flex justify-between w-full md:w-[60%] flex-col md:flex-row gap-8">
           <div className="flex  flex-col gap-3">
             <h3 className="text-[20px] font-[700]">Company</h3>
             <p className="hover:text-brandColor transition-all duration-300 cursor-pointer">
