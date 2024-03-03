@@ -30,7 +30,7 @@ const MobileNav = () => {
       <nav
         className={`${
           scrolling && "backdrop-blur-lg shadow-md"
-        } sticky top-0 left-0 w-full max-w-[1600px] mx-auto px-6 py-4 flex items-center justify-between gap-5 z-50`}
+        } sticky top-0 left-0 w-full max-w-[1600px] mx-auto px-6 py-4 flex items-center justify-between gap-5 z-50 md:hidden`}
       >
         <img src="/logo.png" alt="logo" className="w-[110px]" />
 
